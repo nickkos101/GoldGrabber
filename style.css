@@ -1,0 +1,53 @@
+#goldgrabber {
+background-image:url('images/bckgrd.png');
+height:272px;
+width:295px;
+float:left;
+}
+
+#goldgrabber .int {
+float:left;
+margin-left:99px;
+margin-top:74px;
+}
+#goldgrabber .row {
+width:100%;
+float:left;
+height:28px;
+margin-bottom:2px;
+}
+
+#goldgrabber .payout {
+width:92px;
+}
+#goldgrabber .qty {
+width:72px;
+margin-right:18px;
+}
+
+#goldgrabber input[type=submit] {
+float:left;
+margin-top:-20px;
+margin-left:20px;
+}
+
+#goldgrabber input[type=text] {
+float:left;
+height:22px;
+border:1px solid #c2beb5;
+border-radius:4px;
+background: #e5e5e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #e5e5e5 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+#goldgrabber input[type=text].total {
+    float:right;
+    width:92px;
+    height:30px;
+    margin-right:10px;
+}
